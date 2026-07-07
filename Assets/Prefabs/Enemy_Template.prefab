@@ -126,6 +126,7 @@ MonoBehaviour:
   maxHealth: 100
   destroyOnDeath: 0
   destroyDelay: 0
+  _animator: {fileID: 5969450837090789475}
   invulnerabilityDuration: 0
   OnHealthChanged:
     m_PersistentCalls:
@@ -155,9 +156,9 @@ MonoBehaviour:
   animator: {fileID: 5969450837090789475}
   health: {fileID: 991956436829192589}
   hitFlash: {fileID: 3941046777786337243}
-  speedParam: Speed
-  attackTrigger: Attack
-  deathTrigger: Death
+  speedParam: isRunning
+  attackTrigger: isAttacking
+  deathTrigger: isDying
   hitTrigger: Hit
   playerLayer:
     serializedVersion: 2

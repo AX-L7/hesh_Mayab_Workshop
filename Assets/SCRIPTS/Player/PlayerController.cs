@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
         if (lookDir.magnitude > 0.01f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(lookDir);
-            _aimPivot.rotation = Quaternion.Slerp(_aimPivot.rotation, targetRotation, _aimSmoothing * Time.deltaTime);
+            _aimPivot.rotation = targetRotation;
         }
     }
 
