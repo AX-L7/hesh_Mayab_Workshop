@@ -15,9 +15,9 @@ public class EnemyAI : MonoBehaviour
     [SerializeField] HitFlash hitFlash;
 
     [Header("Animation Parameters")]
-    [SerializeField] string speedParam = "Speed";
-    [SerializeField] string attackTrigger = "Attack";
-    [SerializeField] string deathTrigger = "Death";
+    [SerializeField] string speedParam = "isRunning";
+    [SerializeField] string attackTrigger = "isAttacking";
+    [SerializeField] string deathTrigger = "isDying";
     [SerializeField] string hitTrigger = "Hit";
 
     [Header("Detection")]

@@ -22,7 +22,7 @@ public class PlayerDash : MonoBehaviour
 
     [Header("Animation")]
     [SerializeField] Animator animator;
-    [SerializeField] string dashTrigger = "Dash";
+    [SerializeField] string dashTrigger = "isDashing";
 
     [Header("References")]
     [SerializeField] InputReader input;
@@ -96,9 +96,9 @@ public class PlayerDash : MonoBehaviour
         }
 
         IsDashing = false;
+
         if (animator != null)
             animator.SetBool(dashTrigger, false);
-
 
         if (grantIFrames && healthComponent != null)
         {

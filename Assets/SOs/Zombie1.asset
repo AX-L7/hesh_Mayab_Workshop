@@ -15,9 +15,9 @@ MonoBehaviour:
   enemyName: Zombie
   maxHealth: 50
   moveSpeed: 3.5
-  damage: 10
-  detectionRange: 20
-  attackRange: 2
+  damage: 5
+  detectionRange: 15
+  attackRange: 1.5
   attackCooldown: 1.5
   stoppingDistance: 1.5
   attackWindup: 0.3
