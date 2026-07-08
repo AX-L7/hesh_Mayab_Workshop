@@ -69,3 +69,6 @@ plastic.branchexplorer
 # Paid Asset Packs (import from Asset Store individually)
 Assets/PolygonApocalypse/
 Assets/PolygonApocalypse.meta
+
+# Json error while pushing and pulling
+Packages/com.unity.probuilder/Settings.json
