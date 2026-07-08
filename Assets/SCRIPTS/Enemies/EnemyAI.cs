@@ -103,7 +103,10 @@ public class EnemyAI : MonoBehaviour
 
     void FindPlayer()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        //GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject player = GameObject.FindAnyObjectByType<PlayerDash>().gameObject;
+        Debug.Log("FOUND_");
+        Debug.Log(player);
         if (player != null) target = player.transform;
     }
 
