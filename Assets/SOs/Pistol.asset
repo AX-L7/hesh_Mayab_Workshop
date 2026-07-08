@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Pistol
   icon: {fileID: 0}
-  weaponModel: {fileID: 1562996608389564, guid: a1608518da2a041418e8a5351d223d94, type: 3}
+  weaponModel: {fileID: 1111015175407080, guid: 151fe3144103e1440900697f4b29c68e, type: 3}
   damage: 10
   fireRate: 5
   spread: 1
