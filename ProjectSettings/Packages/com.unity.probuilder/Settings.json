@@ -92,6 +92,11 @@
                 "value": "{\"m_Value\":true}"
             },
             {
+                "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "editor.stripProBuilderScriptsOnBuild",
+                "value": "{\"m_Value\":true}"
+            },
+            {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "ShapeBuilder.ActiveShapeIndex",
                 "value": "{\"m_Value\":6}"
@@ -109,9 +114,6 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cube",
-<<<<<<< HEAD
-                "value": "{\"m_Value\":{\"x\":-117.7112045288086,\"y\":1.2806894779205323,\"z\":-224.0451202392578}}"
-=======
                 "value": "{\"m_Value\":{\"x\":-1.0000001192092896,\"y\":4.000000953674316,\"z\":-1.0}}"
             },
             {
@@ -123,7 +125,6 @@
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Door",
                 "value": "{\"m_Value\":{\"x\":-3.0,\"y\":-2.7023839950561525,\"z\":-1.8473525047302247}}"
->>>>>>> 161ea232b8d1bb6744d262729694e1dd0156ccf9
             },
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",

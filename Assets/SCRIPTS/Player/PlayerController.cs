@@ -1,7 +1,6 @@
 using System;
 using System.Runtime.CompilerServices;
 using TMPro;
-using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
