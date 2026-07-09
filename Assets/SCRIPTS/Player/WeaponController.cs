@@ -100,6 +100,8 @@ public class WeaponController : MonoBehaviour
         if (bulletPool != null)
             bulletObj = bulletPool.Get(muzzlePoint.position, rotation);
 
+        Debug.Log(rotation);
+
         if (bulletObj == null && CurrentWeapon.projectilePrefab != null)
             bulletObj = Instantiate(CurrentWeapon.projectilePrefab, muzzlePoint.position, rotation);
 
